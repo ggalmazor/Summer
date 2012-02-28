@@ -12,10 +12,10 @@ class Action {
   Route route
   HttpMethod method = HttpMethod.ANY
 
-  def execute(Summer app, HttpServletRequest request, HttpServletResponse response) {
-    def params = route.parseParamsFrom(request.pathInfo)
+  String execute(Summer app, HttpServletRequest request, HttpServletResponse response) {
+    Map params = route.parseParamsFrom(request.pathInfo)
     code.delegate = Context.factory(app, params, request, response)
-    code.call()
+    code.call() as String
   }
 
   boolean matches(String path) {
