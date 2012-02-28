@@ -28,13 +28,15 @@ Summer uses [Mustache](http://mustache.github.com/) for templating.
 
 Mustache is a cross-language interpreted templating language that supports just what you need to express websites in html **and** it implements template extension through partials.
 
+Also, Mustaches are great!
+
 ##Why not Groovy's SimpleTemplate
 
 Because, it has too many features and it doesn't have inheritance/extension mechanisms (as far as I'm aware of, please, correct me if I'm wrong). 
 
 #Current status of Summer
 
-Current version is a much-glorified spike that meets the minimum  features that I wanted Summer to include: It comes with an embedded server and it has an extenral file, text based, interpreted templating engine.
+Current version is a much-glorified spike that meets the minimum  features that I wanted Summer to include: It comes with an embedded server and it has an external file, text based, interpreted templating engine.
 
 Its architecture makes it possible to evolve towards something that you could easily import into any project and just use it as any other dependancy. Remember that your projects should speak about them, not about the framework they use.
 
@@ -54,7 +56,7 @@ Without any particular order:
  - Response caching
  - Mustache partials support
  - Simple database configuration layer using Groovy's SQL API
- - Integration with Groomple (dependancy/service container). Summer should extend Groomple and somehow this should help to build ActionContexts.
+ - Integration with [Groomple](http://github.com/ggalmazor/Groomple) (dependancy/service container). Summer should extend Groomple and somehow this should help to build ActionContexts.
  - Replace Jetty with Winstone servlet container
  - Do some performance tests and publish the results
  - Prepare an extension API based on Groomple, like Silex does on Pimple
