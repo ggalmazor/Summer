@@ -64,7 +64,7 @@ Without any particular order:
  - Prepare an extension API based on Groomple, like Silex does on Pimple
  - Check/Fix build definition to get a Summer.jar that you could use on other projects
  - Check/Fix Gradle's *application plugin* to actually launch Summer server
- - Prepare an example for 10.
+ - Prepare an example project
  - Code some helpers for url generation inside templates
  - Enable PMD/Checkstyle plugins
  - Use some Continuous Integration
