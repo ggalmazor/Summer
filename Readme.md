@@ -12,9 +12,11 @@ Summer is also helping me learn about Java servlets, servlet containers, caching
 
 ##Hello World!
 
-    Summer s = Summer.create()
-    s.get '/', { render views.hello }
-    SummerServer.factory(s).run();
+```groovy
+Summer s = Summer.create()
+s.get '/', { render views.hello }
+SummerServer.factory(s).run();
+```
 
 Assuming that there is a *hello.html* template in *views* folder, this piece of code will start a Jetty server on port 8090 and will serve some content on / path.
 
