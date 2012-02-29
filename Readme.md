@@ -68,5 +68,6 @@ Without any particular order:
  - Code some helpers for url generation inside templates
  - Enable PMD/Checkstyle plugins
  - Use some Continuous Integration
+ - Route path wildcards
 
 If there is anything that you'd want see in that list, please let me know. Also, I'll be happy to hear your thoughts on Summer anytime. Just send me an email :)
