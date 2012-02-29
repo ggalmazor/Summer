@@ -2,7 +2,7 @@
 
 Summer is yet another microframework for makings simple websites using Groovy. 
 
-Summer's goal is to provide an easy to understand, easy to use web framework on top of concepts like [KISS](http://en.wikipedia.org/wiki/KISS_principle), [YAGNI](http://en.wikipedia.org/wiki/YAGNI), [SOLID](http://en.wikipedia.org/wiki/SOLID) and built with [Agile Methodoligies](http://agilemanifesto.org/) in mind.
+Summer's goal is to provide an easy to understand, easy to use web framework on top of concepts like [KISS](http://en.wikipedia.org/wiki/KISS_principle), [YAGNI](http://en.wikipedia.org/wiki/YAGNI), [SOLID](http://en.wikipedia.org/wiki/SOLID) and built with [Agile Methodologies](http://agilemanifesto.org/) in mind.
 
 ##A little bit of context
 
